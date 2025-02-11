@@ -9,7 +9,84 @@ int main() {
     int n = 5;
     cout << "\n\nOutput:" << endl;
 
+    // Pattern 22
+    for (int i=0; i<2*n - 1; i++) {
+        for (int j=0; j<2*n -1; j++) {
+            int top = i;
+            int bottom = j;
+            int right = (2*n - 2) - j;
+            int left = (2*n - 2) - i;
+             cout<<(n- min(min(top,bottom), min(left,right)))<<" ";
+        }
+        cout << endl;
+
+    }    
+
+/*
+    // Pattern 21
+    for (int i=0; i<n; i++) {
+        if (i==0 || i == (n-1)) {
+            for (int j=0; j<n; j++)
+                cout << "*";
+        }
+        else {
+            cout <<"*";
+            for (int j=0; j<n-2; j++)
+                cout<<" ";
+            cout << "*";
+        }
+        cout << endl;
+    }
+*/    
+    // Pattern 20 same as 19 just reverse the loop
+
+/*    
+    // Pattern 19
+    for (int i=0; i<n; i++) {
+        // first
+        for (int j=(n-i); j>=1; j--)
+            cout << "*";
+        
+        // space
+        for (int j=0; j<=i*2; j++)
+            cout << " ";
+        
+        // last
+        for (int j=(n-i); j>=1; j--)
+            cout << "*";
+            
+        cout << endl;
+    }
+    for (int i=0; i<n; i++) {
+        // first
+        for (int j=0; j<=i; j++)
+            cout << "*";
+        
+        // space
+        for (int j=0; j<=(n-i-1)*2; j++)
+            cout << " ";
+        
+        // last
+        for (int j=0; j<=i; j++)
+            cout << "*";
+            
+        cout << endl;
+    }
+*/
+
+
+/*    
+    // Pattern 18
+    char ch = 'A' + n -1;
+    for (int i=0; i<n; i++) {
+        for (int j=0; j<=i; j++) {
+            cout << (char)(ch-(i-j));
+        }
+        cout << endl;
+    }
+*/  
     
+
 /*    
     // Pattern 17
     char cnt = 'A';
