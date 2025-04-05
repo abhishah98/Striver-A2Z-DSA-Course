@@ -1,4 +1,4 @@
-# **Striver AtoZ DSA Solutions (C++)**   
+# **Striver AtoZ DSA Solutions**   
 
 This repository contains my submissions for the Striver AtoZ DSA Course, implemented in C++. It serves as a personal log of my progress and a resource for others following the course.
 
