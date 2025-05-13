@@ -17,7 +17,7 @@ class Solution {
                 swap(arr, lo, mid);
                 lo++;
                 mid++;
-                // System.out.println("0: " + lo + " " + mid + " " + hi);
+                 System.out.println("0: " + lo + " " + mid + " " + hi);
             } else if (arr[mid] == 1) {
                 mid++;
                 // System.out.println("1: " + lo + " " + mid + " " + hi);                
