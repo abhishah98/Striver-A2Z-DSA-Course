@@ -7,7 +7,6 @@ class Solution {
         arr[j] = tmp;
     }
 
-
     public void sortColors(int[] arr) {
         // Optimal Approch
         // Keep three pointers lo, mid, hi
